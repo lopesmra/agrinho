@@ -1,0 +1,145 @@
+header {
+    position: relative;
+}
+
+h1 {
+    font-size: 600%;
+    font-family: 'Handjet', cursive;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.logo img {
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.logo :hover img{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+#logoclick img {
+    width: 100%;
+}
+
+#logoclick {
+    display: flex;
+    justify-content: center;
+    width: 7%;
+}
+
+.introdução {
+    position: relative;
+    width: 60%;
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Handjet', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.fundo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.fundo img {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+ul {
+    font-size: 180%;
+    font-family: 'Handjet', cursive;
+    text-align: center;
+    margin-top: 2%;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+li {
+    width: 15%;
+}
+
+ul img {
+    border-radius: 15%;
+    width: 80%;
+    height: 80%;
+    height: auto;
+}
+
+a {
+    color: black;
+}
+
+nav a {
+    display: flex;
+    justify-content: space-around;
+    font-size: 300%;
+    font-family: 'Handjet', cursive;
+    position: relative;
+    margin-top: 3%
+}
+
+.divulgação {
+    color: black;
+    position: relative;
+    font-size: 300%;
+    font-family: 'Handjet', cursive;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.contenos {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.conteclick {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.all-person {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+ }
+
+ .all-person p {
+    margin-bottom: 2%;
+    margin-top: 2%;
+ }
+ 
+ .all-person img {
+    border: 3px solid black;
+    width: 80%;
+    height: 80%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+ }
+ 
+ .all-person:hover img {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: rgba(0, 94, 255, 0.24) 0px 10px 15px;
+ }
