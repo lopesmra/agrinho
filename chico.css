@@ -76,3 +76,7 @@ p {
 figcaption {
     text-align: center;
 }
+
+#clique {
+    color: red;
+}
